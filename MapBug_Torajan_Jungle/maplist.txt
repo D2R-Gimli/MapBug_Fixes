@@ -1,0 +1,3 @@
+Jungle1.ds1	Torajan Jungle Map	act3\jungle	21	1102
+Jungle2.ds1	Torajan Jungle Map	act3\jungle	21	1102
+Jungle3.ds1	Torajan Jungle Map	act3\jungle	21	1102
