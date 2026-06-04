@@ -1,0 +1,7 @@
+@echo off
+D:
+cd "D:/_D2R/win_ds1edit"
+win_ds1edit.exe MapBug_Fixes/MapBug_Sanctuary_of_sin/edited/SanctuaryOfSinV3.ds1 -force_dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Lava/floor.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Lava/walls.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Diab/floor.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Diab/walls.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Diab/bridge.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Lava/extwalls.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Lava/floornew.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Lava/intwalls.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Lava/rocks.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Lava/specials.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Mesa/surf_wall.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/expansion/Siege/hellgate.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/PD2assets/a4_throne.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/PD2assets/a4_underflr.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Mesa/floor.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/Act4/Mesa/inv_wall.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/PD2assets/a4_worldstone.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/PD2assets/NEW_floornew.dt1 MapBug_Fixes/MapBug_Sanctuary_of_sin/source/PD2assets/RotatedThroneArch.dt1 > "MapBug_Fixes/MapBug_Sanctuary_of_sin/edited/SanctuaryOfSin_debug.txt"
+If ERRORLEVEL 0 goto DONE
+pause
+:DONE
