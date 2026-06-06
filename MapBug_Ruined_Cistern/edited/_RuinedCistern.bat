@@ -1,0 +1,7 @@
+@echo off
+D:
+cd "D:/[Games]/PD2_tools_mods/win_ds1edit"
+win_ds1edit.exe MapBug_Ruined_Cistern/edited/RuinedCistern.ds1 -force_dt1 MapBug_Ruined_Cistern/source/ACT2/BigCliff/cliffleft.dt1 MapBug_Ruined_Cistern/source/ACT2/BigCliff/cliffmesa.dt1 MapBug_Ruined_Cistern/source/ACT2/Outdoors/oasis.dt1 MapBug_Ruined_Cistern/source/ACT2/Outdoors/palm.dt1 MapBug_Ruined_Cistern/source/ACT2/Outdoors/prickly.dt1 MapBug_Ruined_Cistern/source/ACT2/Outdoors/rocks.dt1 MapBug_Ruined_Cistern/source/ACT2/Outdoors/scrub.dt1 MapBug_Ruined_Cistern/source/ACT2/Outdoors/tombent.dt1 MapBug_Ruined_Cistern/source/ACT2/Outdoors/village.dt1 MapBug_Ruined_Cistern/source/ACT2/Palace/palace.dt1 MapBug_Ruined_Cistern/source/ACT2/Sewer/chamb.dt1 MapBug_Ruined_Cistern/source/ACT2/Sewer/items.dt1 MapBug_Ruined_Cistern/source/ACT2/Sewer/radament.dt1 MapBug_Ruined_Cistern/source/ACT2/Sewer/walls.dt1 MapBug_Ruined_Cistern/source/ACT2/Tomb/talrasha.dt1 MapBug_Ruined_Cistern/source/ACT2/Town/build.dt1 MapBug_Ruined_Cistern/source/ACT2/Town/canal.dt1 MapBug_Ruined_Cistern/source/ACT2/Town/curbs.dt1 MapBug_Ruined_Cistern/source/ACT2/Town/gate.dt1 MapBug_Ruined_Cistern/source/ACT2/Town/shop.dt1 MapBug_Ruined_Cistern/source/ACT2/Town/tavern.dt1 MapBug_Ruined_Cistern/source/ACT2/Town/wagon.dt1 MapBug_Ruined_Cistern/source/PD2assets/NEW_chamb.dt1 MapBug_Ruined_Cistern/source/PD2assets/oasisWalkable.dt1 > "MapBug_Ruined_Cistern/edited/_RuinedCistern_debug.txt"
+If ERRORLEVEL 0 goto DONE
+pause
+:DONE
