@@ -3,7 +3,7 @@ STEPPS OF DAKEN-SHAR MAP BUGS FIX
 --------------------------------------------------------------
 
 [ISSUE]
-Monster/Loor traps over the place.
+Monster/Loot traps over the place.
 A lot of invisible walls or just floor areas where you cant run over - even if it is "free".
 Players can get trapped inside a stony grave when clickin on it to open.
 
