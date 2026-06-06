@@ -1,0 +1,7 @@
+@echo off
+D:
+cd "D:/[Games]/PD2_tools_mods/win_ds1edit"
+win_ds1edit.exe MapBug_Steppes_of_Daken-Shar/edited/dakenshar.ds1 -force_dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Icecave/exterior.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Icecave/interior.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/ascendors.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/cliff.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/fence.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/ground.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/rockcliff.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/rockclifffloor.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/rocks.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/shrub.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/snow.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Siege/trees.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Wildtemple/entrance.dt1 MapBug_Steppes_of_Daken-Shar/source/expansion/Wildtemple/interior.dt1 MapBug_Steppes_of_Daken-Shar/source/PD2assets/a5_palm.dt1 MapBug_Steppes_of_Daken-Shar/source/PD2assets/a5_prickly.dt1 MapBug_Steppes_of_Daken-Shar/source/PD2assets/a5_river.dt1 MapBug_Steppes_of_Daken-Shar/source/PD2assets/a5_rotatedriver.dt1 MapBug_Steppes_of_Daken-Shar/source/PD2assets/kanemith.dt1 MapBug_Steppes_of_Daken-Shar/source/PD2assets/triune_floor.dt1 > "MapBug_Steppes_of_Daken-Shar/edited/_dakenshar_debug.txt"
+If ERRORLEVEL 0 goto DONE
+pause
+:DONE
