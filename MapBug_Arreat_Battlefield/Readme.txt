@@ -6,11 +6,13 @@ AREAT BATTLEFIELD MAP BUGS FIX
 Snow borders leads to a graphic bug if players are on a specific spot in the map.
 Some little areas where loot can get trapped.
 A spot that blocks walking on the floor where it should be free.
+The shadow of a wagon is not correct aligned.
 
 [SOLUTION]
 Changed 1 tile and limited the area that players can reach to prevent this graphical bug.
 To fix it correctly new tiles would be needed - not worth the time.
 Fixed blocking floor tile and a bit more - see images for examples.
+Fixed the misaligned shadow of the wagon.
 
 [PATCH FILES -> DIR]
 siege1.ds1			->		data\global\tiles\expansion\map
